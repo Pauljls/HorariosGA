@@ -22,9 +22,9 @@ class Horario:
 
     def getHorario(self):
         return {
-            'lunes': self.lunes,
-            'martes':self.martes ,
-            'miercoles':self.miercoles ,
-            'jueves':self.jueves ,
-            'viernes':self.viernes ,
+            'lunes': [x.getFraccionCurso() for x  in self.lunes],
+            'martes':[x.getFraccionCurso() for x  in self.martes] ,
+            'miercoles':[x.getFraccionCurso() for x  in self.miercoles] ,
+            'jueves':[x.getFraccionCurso() for x  in self.jueves] ,
+            'viernes':[x.getFraccionCurso() for x  in self.viernes] ,
         }

@@ -34,7 +34,7 @@ lenguaje = Curso(
 
 fisica = Curso(
     'Fisica',
-    proferos3
+    proferos1
 )
 
 biologia = Curso(
