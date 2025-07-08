@@ -8,7 +8,7 @@ from data import horarioprof1
 
 import pandas as pd
 
-horas = list(range(7, 13))  # De 7:00 a 18:00
+horas = list(range(7, 13))  # De 7:00 a 13:00
 
 # Días de la semana
 dias = ['lunes', 'martes', 'miercoles', 'jueves', 'viernes']
